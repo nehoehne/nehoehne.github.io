@@ -47,39 +47,30 @@ table {
 	border-spacing: 0;
 }
 
-/* Custom styles */
+/* 
+Custom styles 
+*/
+
+/* header */
 header {
     margin: 20px 10px; 
 	display: flex; 
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-}
-
-#portrait {
-	flex-grow: 3;
-	display: flex;
-	justify-content: flex-end;
+	flex-wrap: wrap;
 }
 
 #portrait img {
     width: 300px;
 }
-
 #name {
-	/* display: inline-block; */
-	/* position: relative; */
-	display: flex;
-	font-family: monospace;
+	display: block;
 	font-size: 50px;
 	letter-spacing: 5px;
-	flex-grow: 1;
-	flex-wrap: wrap;
-}
-
-.name {
 	margin: 5px;
 }
 
+/* nav bar */
 nav {
 	margin: 2em;
 	display: flex;
@@ -102,14 +93,15 @@ nav {
 
 .nav-button {
 	border: none;
-	background-color: white;
 	height: 2em;
 	width: 8em;
 	font-size: 20px;
-	flex-grow:1;
+	flex-grow: 1;
+	background-color: white;
 }
 
 .nav-button:hover {
-	background-color: seashell;
+	background-color: lightgray;
+	transition: background-color 0.2s ease-out;
 }
-.nav-button {cursor: pointer}
+.nav-button {cursor: pointer} 
