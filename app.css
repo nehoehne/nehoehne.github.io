@@ -63,21 +63,23 @@ header {
 #portrait img {
     width: 300px;
 }
-#name {
-	display: block;
-	font-size: 50px;
+h1 {
+	font-size: 3em;
 	letter-spacing: 5px;
 	margin: 5px;
 }
 
 /* nav bar */
+body {
+	font-family: 'Roboto', sans-serif;
+}
 nav {
 	margin: 2em;
 	display: flex;
 	justify-content: center;
 }
 
-.nav-pad {
+.pad {
 	flex-basis: 200px;
 }
 
@@ -92,16 +94,32 @@ nav {
 }
 
 .nav-button {
+	font-family: inherit;
 	border: none;
-	height: 2em;
-	width: 8em;
-	font-size: 20px;
+	height: 50px;
+	width: 150px;
+	font-size: 1.5em;
 	flex-grow: 1;
 	background-color: white;
 }
 
 .nav-button:hover {
-	background-color: lightgray;
+	background-color: #f5f3f4;
 	transition: background-color 0.2s ease-out;
 }
+.nav-button:active {
+	background-color: #d3d3d3;
+	transition: background-color 0.1s ease-out;
+}
 .nav-button {cursor: pointer} 
+
+/* Resume styles */
+#resume {
+	display: none;
+	margin: 30px;
+}
+
+.resume-header {
+	font-size: 2em;
+}
+
