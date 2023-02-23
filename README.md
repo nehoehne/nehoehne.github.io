@@ -4,4 +4,5 @@ My first attempt at building a website from the ground up. Plus, its also my res
 ## Goals 
 * Gain a strong understanding of HTML, CSS, JS. 
 * Build a responsive, mobile friendly website. 
-* Practice CSS grid and flexbox.
+* Practice CSS flexbox.  
+* Learn CSS grid.
