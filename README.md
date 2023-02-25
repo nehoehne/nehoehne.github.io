@@ -6,3 +6,4 @@ My first attempt at building a website from the ground up. Plus, its also my res
 * Build a responsive, mobile friendly website. 
 * Practice CSS flexbox.  
 * Learn CSS grid.
+
