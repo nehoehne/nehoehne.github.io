@@ -53,9 +53,17 @@ Custom styles
 
 /* header */
 header {
-    margin: 20px 10px; 
+    margin: 20px 0; 
 	display: flex; 
 	justify-content: center;
+	font-weight: 200;
+	color: #bc4749;
+}
+
+#header-spacer {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 }
@@ -71,7 +79,7 @@ h1 {
 
 /* nav bar */
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 nav {
 	margin: 2em;
@@ -97,29 +105,26 @@ nav {
 	font-family: inherit;
 	border: none;
 	height: 50px;
-	width: 150px;
+	width: 275px;
 	font-size: 1.5em;
 	flex-grow: 1;
 	background-color: white;
 }
 
 .nav-button:hover {
-	background-color: #f5f3f4;
+	color: #bc4749;
 	transition: background-color 0.2s ease-out;
+	background-color: #fcfcfc;
 }
 .nav-button:active {
-	background-color: #d3d3d3;
-	transition: background-color 0.1s ease-out;
+	color: #ac4143;
+	background-color: #f7f7f7;
+	transition: background-color 0.2s ease-out;
 }
 .nav-button {cursor: pointer} 
 
-/* Resume styles */
-#resume {
+section {
 	display: none;
-	margin: 30px;
 }
 
-.resume-header {
-	font-size: 2em;
-}
 
