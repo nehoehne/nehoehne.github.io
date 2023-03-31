@@ -63,31 +63,6 @@ const isActive = (page) => {
     return activePage === page; 
 }
 
-// const setActiveTab = (shouldActivate, tab, page) {
-//     showContent(shouldActivate, page);
-//     setStyles(shouldActivate, tab); 
-// }
-
-// const toggleDisplay = (element) => {
-//     if(element === null) return; 
-
-//     if(element.style.display === "block") {
-//         element.style.display = "none";
-//     } else {
-//         element.style.display = "block";
-//     }
-// }
-
-// const toggleActiveTab = (tab) => {
-//     if(!tab) throw new Error(`Unexpected null pointer: page = ${tab}`); 
-    
-//     if(element.style.display === "block") {
-//         element.style.display = "none";
-//     } else {
-//         element.style.display = "block";
-//     }
-// }
-
 const main = () => {
     console.log("called main!")
     enableNavigation(); 

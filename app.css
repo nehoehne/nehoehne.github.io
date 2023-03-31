@@ -112,9 +112,9 @@ nav {
 }
 
 .nav-button:hover {
-	color: #bc4749;
-	transition: background-color 0.2s ease-out;
-	background-color: #fcfcfc;
+	color: #bc4749 !important;
+	transition: background-color 0.2s ease-out !important;
+	background-color: #fcfcfc !important;
 }
 .nav-button:active {
 	color: #ac4143;
