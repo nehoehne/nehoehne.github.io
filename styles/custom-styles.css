@@ -1,0 +1,78 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	padding: 3em;
+}
+
+/* header */
+header {
+    margin: 20px 0; 
+	display: flex; 
+	justify-content: center;
+	font-weight: 200;
+	color: #bc4749;
+}
+
+#header-spacer {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#portrait img {
+    width: 300px;
+}
+h1 {
+	font-size: 3em;
+	letter-spacing: 5px;
+}
+
+/* nav bar */
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+.pad {
+	flex-basis: 200px;
+}
+
+#nav-bar {
+	display: flex;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.nav-button {
+	font-family: inherit;
+	border: none;
+	height: 50px;
+	width: 275px;
+	font-size: 1.5em;
+	flex-grow: 1;
+	background-color: white;
+}
+
+.nav-button:hover {
+	color: #bc4749 !important;
+	transition: background-color 0.2s ease-out !important;
+	background-color: #fcfcfc !important;
+}
+.nav-button:active {
+	color: #ac4143;
+	background-color: #f7f7f7;
+	transition: background-color 0.2s ease-out;
+}
+.nav-button {cursor: pointer} 
+
+section {
+	display: none;
+}
+
+
