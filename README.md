@@ -1,9 +1,9 @@
 # personal-website
-My first attempt at building a website from the ground up. Plus, its also my resume. 
+My first attempt at building a website from scratch: https://nehoehne.github.io/
 
 ## Goals 
-* Gain a strong understanding of HTML, CSS, JS. 
-* Build a responsive, mobile friendly website. 
-* Practice CSS flexbox.  
-* Learn CSS grid.
+* Gain a stronger understanding of HTML, CSS, and JS. 
+* Build a responsive/mobile friendly website. 
+
+
 
