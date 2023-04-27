@@ -22,6 +22,7 @@ header {
 
 #portrait img {
     width: 300px;
+	margin: 5px;
 }
 h1 {
 	font-size: 3em;
@@ -51,10 +52,10 @@ nav {
 
 .nav-button {
 	font-family: inherit;
+	font-size: 1.5em;
 	border: none;
 	height: 50px;
 	width: 275px;
-	font-size: 1.5em;
 	flex-grow: 1;
 	background-color: white;
 }
@@ -75,4 +76,92 @@ section {
 	display: none;
 }
 
+/* content */
+.content {
+	padding: 5px 15px;
+}
+.content-header {
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 600; 
+	margin: 10px 0px;
+}
+
+.content-list {
+	margin: 5px 0px;
+	padding-left: 25px;
+}
+.content-list-item {
+	padding: 1px 5px;
+	list-style-type: disc;
+	margin: 5px 0px;
+}
+
+.content-details {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-details-text {
+	color: #bc4749;
+	font-size: 1rem;
+}
+
+
+
+
+/* technical skills */
+.skill-table {
+	display: flex;
+	padding: 10px 50px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.skill-table-col {
+	margin: 0px 10px;
+}
+
+/* medium screen */
+@media only screen and (max-width: 1185px) {
+	body {
+		padding-top: 25px;
+	}
+	#portrait img {
+		object-fit: cover;
+		height: 300px;
+		/* width: 200px; */
+	}
+	
+	.nav-button {
+		font-size: 1.3em;
+		height: 40px;
+	}
+
+}
+/* small screen  */
+@media only screen and (max-width: 650px) {
+	body {
+		padding-top: 0px;
+	}
+	#portrait img {
+		object-fit: cover;
+		height: 225px;
+		width: 225px;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	.nav-button {
+		font-size: 1.1em;
+		height: 40px;
+	}
+	.skill-table {
+		display: block;
+		padding: 10px 10px;
+	}
+	.content-details {
+		display: block;
+	}
+	
+}
 
